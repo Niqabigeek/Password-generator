@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    height: 70vh;
+    gap: 1rem;
+    width: 60%;
+    margin: 5rem auto;
+}
+
+.first-div{
+    background-color: #1F2937;
+    padding: 4rem 2rem;
+    height: 55vh;
+    width: 40%;
+   
+}
+
+.second-div{
+    background-color: #1F2937;
+    padding: 4rem 2rem;
+    height: 55vh;
+    float: right;
+    width: 40%;
+}
+
+p{
+    color: white;
+    line-height: 100%;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.subtext{
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 8px;
+    margin-bottom: 45px;
+    color: #D5D4D8;
+}
+
+span{
+    display: flex;
+    color: #4ADF86;
+}
+
+.btn{
+    background-color: #4ADF86;
+    color: #ffffff;
+    font: 14px;
+    padding: 8px 11px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.line{
+    
+    border-top: 2px solid #273549;
+    margin-bottom: 2rem;
+  
+   
+
+   
+}
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.f-blank button{
+ 
+    background-color: #273549;
+    border: #1C1C1C;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 50%;
+    padding: 12px 4rem;
+    
+    
+    
+}
+
+.s-contain{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.s-blank button{
+    background-color: #273549;
+    color: #55F991;
+    border: #1C1C1C;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 7px 19px;
+}
+
+
+
