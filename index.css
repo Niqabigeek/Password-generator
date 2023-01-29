@@ -95,7 +95,7 @@ span{
 /* Mobile Responsiveness */
 
  
-@media screen and (min-width: 320px) and (max-width: 769px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
     
     html, body{
@@ -105,11 +105,16 @@ span{
         overflow: hidden;
       
     }
+
+    .container{
+    
+        min-width: 90%;
+    }
    
 
     .first-div{
         padding-top: 7rem;
-        padding-right: 7rem;
+        /* padding-right: 7rem; */
         height: 70vh;
         min-width: 100%;
         border-radius: 8px;
@@ -141,6 +146,20 @@ span{
    }
 }
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    html, body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+      
+    }
+
+    .container{
+        /* min-width: 90%; */
+        background-color: #1C1C1C;
+    }
+}
+
 @media screen and (min-width: 769px){ 
 
     html, body{
@@ -151,7 +170,7 @@ span{
     }
 
     .container{
-        
+        /* min-width: 90%; */
         background-color: #1C1C1C;
     }
 }  
