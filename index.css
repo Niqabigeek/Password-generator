@@ -92,15 +92,10 @@ span{
 
 
 
-/* Mobile Responsiveness
-480px.
-iPads and Tablets – 481px — 768px.
-Laptops and small screen – 769px — 1024px.
-Large screens and Desktops – 1025px — 1200px.
-TV and Extra Large Screens – 1201px and more. */
+/* Mobile Responsiveness */
 
  
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 769px) {
 
     
     html, body{
@@ -114,6 +109,7 @@ TV and Extra Large Screens – 1201px and more. */
 
     .first-div{
         padding-top: 7rem;
+        padding-right: 7rem;
         height: 70vh;
         min-width: 100%;
         border-radius: 8px;
@@ -131,7 +127,7 @@ TV and Extra Large Screens – 1201px and more. */
 
 
    .btn{
-        font-size: 8px;
+        font-size: 12px;
    }
 
    .contain{
@@ -139,22 +135,23 @@ TV and Extra Large Screens – 1201px and more. */
    }
 
    .f-blank{
-    padding-top: 0.5rem;
-        min-width: 4rem;
-        font-size: 8px;
+        padding-top: 0.5rem;
+        min-width: 5rem;
+        font-size: 9px;
    }
 }
 
-/*@media screen and (min-width: 768px){ 
+@media screen and (min-width: 769px){ 
+
     html, body{
-        
-    
+        height: 100%;
+        width: 100%;
         overflow: hidden;
       
     }
 
     .container{
-        height: 70vh;
+        
         background-color: #1C1C1C;
     }
-}  */
+}  
