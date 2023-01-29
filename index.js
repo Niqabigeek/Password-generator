@@ -6,7 +6,7 @@ var generate = document.getElementById("getanother");
 // Add a click event listener to the button
 button.addEventListener("click", function() {
   // Generate a random password
-  var password = Math.random().toString(36).slice(-8);
+  var password = Math.random().toString(36).slice(-12);
 
   // Display the password
   demo.innerHTML = password;
@@ -16,7 +16,7 @@ button.addEventListener("click", function() {
 
 button.addEventListener("click", function() {
   // Generate a random password
-  var password = Math.random().toString(36).slice(-8);
+  var password = Math.random().toString(36).slice(-12);
 
   // Display the password
   generate.innerHTML = password;
