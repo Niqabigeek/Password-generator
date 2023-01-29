@@ -99,7 +99,7 @@ Large screens and Desktops – 1025px — 1200px.
 TV and Extra Large Screens – 1201px and more. */
 
  
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
     
     html, body{
@@ -116,12 +116,9 @@ TV and Extra Large Screens – 1201px and more. */
         height: 70vh;
         min-width: 100%;
         border-radius: 8px;
-        /* margin-top: 4rem; */
+        height: 50vh;
+        width: 70%;
        
-
-        
-       
-
     }
 
     p{
