@@ -65,7 +65,6 @@ span{
 
 .contain{
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 1rem;
     width: 1px;
@@ -99,23 +98,25 @@ Large screens and Desktops – 1025px — 1200px.
 TV and Extra Large Screens – 1201px and more. */
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 320px) {
 
     
     html, body{
         height: 100%;
         width: 100%;
         background-color: #1C1C1C;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      
     }
    
 
     .first-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 70vh;
         min-width: 100%;
         border-radius: 8px;
+        /* margin-top: 4rem; */
        
 
         
