@@ -24,13 +24,6 @@
 
 }
 
-.second-div{
-    background-color: #1F2937;
-    padding: 4rem 2rem;
-    height: 55vh;
-    float: right;
-    width: 40%;
-}
 
 p{
     color: white;
@@ -72,9 +65,11 @@ span{
 
 .contain{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 100%;
+    width: 1px;
+    
 }
 
 .f-blank{
@@ -87,7 +82,7 @@ span{
     padding-top: 5px;
     font-size: 14px;
     font-weight: normal;
-    width: 10rem;
+    min-width: 10rem;
     height: 1.5rem;
     
     
@@ -96,39 +91,55 @@ span{
 
 
 
-/* Mobile Responsiveness */
+/* Mobile Responsiveness
+480px.
+iPads and Tablets – 481px — 768px.
+Laptops and small screen – 769px — 1024px.
+Large screens and Desktops – 1025px — 1200px.
+TV and Extra Large Screens – 1201px and more. */
 
 
-@media screen and (max-width: 700px){
+@media screen and (min-width: 500px) {
 
-
-    body{
+    
+    html, body{
+        height: 100%;
+        width: 100%;
         background-color: #1C1C1C;
-    }
-   
-    .container{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-       
     }
+   
 
     .first-div{
-        width: 80%  ;
+        height: 70vh;
+        min-width: 100%;
+        border-radius: 8px;
+       
+
+        
        
 
     }
 
-    .second-div{
-        width: 80%  ;
-       
-
+    p{
+        font-size: 20px;
+        line-height: 120%;
     }
 
-   
+    .subtext{
+        font-size: 12px;
+    }
+
+
+   .btn{
+        font-size: 8px;
+   }
+
+   .contain{
+    
+    max-width: 5rem;
+   }
 }
 
