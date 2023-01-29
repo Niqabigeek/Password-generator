@@ -135,8 +135,12 @@ TV and Extra Large Screens – 1201px and more. */
    }
 
    .contain{
-    
-    max-width: 5rem;
+        max-width: 5rem;
+   }
+
+   .f-blank{
+        min-width: 5rem;
+        font-size: 10px;
    }
 }
 
