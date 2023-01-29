@@ -139,8 +139,9 @@ TV and Extra Large Screens – 1201px and more. */
    }
 
    .f-blank{
-        min-width: 5rem;
-        font-size: 10px;
+    padding-top: 0.5rem;
+        min-width: 4rem;
+        font-size: 8px;
    }
 }
 
